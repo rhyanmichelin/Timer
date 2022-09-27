@@ -1,0 +1,49 @@
+body{
+    background-image: linear-gradient(45deg, rgb(179, 209, 255), rgb(255, 255, 255));
+    height: 100vh;
+}
+
+div{
+    text-align: center;
+}
+
+h1{
+    font-size: 3.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    height: 2.5em;
+    width: 5.5em;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+    .start-button{
+        background-color: #98d8a6;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2em;
+        border-radius: 6px;
+        border: none;
+        color: #00641b;
+    }
+
+    .pause-button{
+        background-color: #e7cc82;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2em;
+        border-radius: 6px;
+        border: none;
+        color: #6d4e00;
+    }
+
+    .stop-button{
+        background-color: #ffadad;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2em;
+        border-radius: 6px;
+        border: none;
+        color: #610000;
+    }
